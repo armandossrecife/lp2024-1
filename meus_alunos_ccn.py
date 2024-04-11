@@ -69,7 +69,7 @@ def carrega_arquivo_internet(url, filename):
         print(f"O download falhou!. Status code: {response.status_code}")
 
 # Chamada do sistema operacional para limpar a tela
-os.system("clear")
+# os.system("clear")
 
 arquivo_principal = "alunos_ccn.csv"
 
