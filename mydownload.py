@@ -34,6 +34,7 @@ def download_file(url, destination):
         # Caso seja uma excecao de comunicacao de rede
         print(f"Erro na conexão!")
         print("Download cancelado!")
+        return False
     except IOError: 
         # Caso aconteca um erro de IO do arquivo
         print(f"Arquivo {destination} inválido!")
